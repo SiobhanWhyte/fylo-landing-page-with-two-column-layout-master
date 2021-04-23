@@ -17,7 +17,10 @@ header {
 h1 {
     font-family: 'Raleway', sans-serif;
 }
-
+h3, h4, p {
+    margin:0;
+    
+}
 p {
     font-family: 'Open Sans', sans-serif;
 }
@@ -29,24 +32,40 @@ color: white;
 width: 15rem;
 height: 2rem;
 border:none;
+border-radius: 2px;
 }
 
 form {
 background-color: white;
 width: 15rem;
 height: 2rem;
+margin-bottom: .5rem;
+border: rgb(114, 112, 112) solid .5px;
+color: hsl(0, 0%, 75%);
+text-align: left;
+border-radius: 2px;
 }
 
-.form {
-    display: inline-block;
-    border: none;
-    margin-bottom: .5rem;
-}
 img {
 	display: block;
 	max-width: 100%;
     mix-blend-mode: multiply;
 }
+
+ul {
+    list-style-type: none;
+}
+
+footer {
+    background-color: hsl(243, 87%, 12%);
+    color: white;
+    text-align: left;
+    }
+
+.form {
+    display: inline-block;
+}
+
 
 .logo-top {
     width: 20%;
@@ -64,7 +83,7 @@ img {
     display: inline;
 }
 
-.illustrations {
+.illustrations-one {
     margin-top: 6rem;
 }
 
@@ -77,33 +96,25 @@ img {
 	display: none;
 }
 
+.content {
+    background-color: hsl(240, 75%, 98%);
+}
 
 .green-button {
     color: hsl(170, 45%, 43%);
     background-color:  hsl(240, 75%, 98%);
+    border-bottom: hsl(170, 45%, 43%) solid 1px;
+    ;
 }
 
 .cta {
     background-color: hsl(238, 22%, 44%);
 }
 
-footer {
-background-color: hsl(243, 87%, 12%);
-color: white;
-text-align: left;
-}
-
-ul {
-    list-style-type: none;
-}
 
 
-.white-filter {
-    display: inline-block;
-  width: 50px;
-  height: 50px;
-  background:white;
-}
+
+
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
